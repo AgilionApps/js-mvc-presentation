@@ -1,8 +1,8 @@
 ## Why Batman
 
 - CoffeeScript is elegant and cuts down on LOC
-- For Rails developers (like me) I feel right at home
-- Convention over configuration
+- For Rails developers (like me) you'll feel right at home
+- Convention over configuration design pattern
 - Observable properties are awesome
 
 ```coffeescript
@@ -10,7 +10,7 @@
   @set 'abv', @get('calculated_abv')
 ```
 
-- Built in form binding with views
+- Built in form binding within views
 
 ``` html
 <form class="nice" data-formfor-beer="controllers.beers.emptyBeer" data-event-submit="controllers.beers.create">
@@ -23,7 +23,7 @@
 </form>
 ```
 
-- Templates are HTML
+- Views are just pure HTML
 
 ```html
 <tbody>
@@ -33,3 +33,7 @@
   </tr>
 </tbody>
 ```
+
+![Shopify](http://wiki.shopify.com/upload/a/a6/Shopify-2010-black.png)
+
+- Shopify is a pretty well established company, this is their entry into the Javascript MVC world. Hopefully it will have some staying power.
