@@ -1,56 +1,70 @@
 # Javascript MVC
 
-Modular and decoupled code is common with server side frameworks like Ruby on Rails (Ruby), 
-Django (Python) and Zend Framework (PHP). Great care and attention is spent making sure that application code is well organized and optimized for maintainability. As developers working in these code bases, it's obvious to see the benefits when code grows over the lifecycle of a project.
+Modular and decoupled code is all the rage for server side frameworks like Ruby on Rails (Ruby), 
+Django (Python) and Zend Framework (PHP). Great care and attention is paid for this upfront, ensuring application code is well organized and optimized for maintainability.
 
-Client side development has so far been a different story. Traditionally, Javascript has been treated as an afterthought. Code and libraries are copy/pasted and dropped into a public directory. 
+Client side development has so far been a different story. Traditionally, Javascript has been treated as an afterthought. Code and libraries are copy/pasted and dropped into a public directory with little regard. 
 
-Third party code like jQuery, Prototype and Mootools enable great opportunities for making amazing things, but do not inherently promote principles of maintainability that is common with server side programming frameworks. Instead, they can exacerbate the problem and it is common to find "spagehhti" code littered throughout client facing code. 
+Popular Javascript libraries like jQuery, Prototype and Mootools enable developers to create powerful user experiences with fewer lines of code, but do not inherently promote principles of maintainability. These frameworks can even make the problem worse and it is all too common to find "spaghetti" callbacks and selectors nested in massive Javascript files. 
 
-But the principle holds true that the best way to build large applications is to NOT build large applications. The lessons of well structured code from the server side world are being applied to client side development as well. 
+But the principle holds true that the best way to build large applications is to NOT build large applications. The more modular and decoupled code becomes the easier it is to extend and reuse. The principles applied in structuring server side frameworks are being applied to front end development frameworks as demand for rich user experiences continues to increase.
 
-Web applications are advancing and a lot of interaction is being made possible because of Javascript. 
+And there are a lot of Javascript MVCs to chose from.
+
+There are comprehensive frameworks like Cappuccino and Sproutcore, that provide complete UI widgets and themes. And there are minimalist frameworks like Backbone and Spine, that strive for simplicity over all else.
+
+I'll be talking about Spine.js.
+
+### A Note About CoffeeScript
+
+CoffeeScript has a lot of proponents and many opponents. Everything written in CoffeeScript can be written in JavaScript and every library used is available in both formats if desired. 
+
+The advantages of using CoffeeScript are 
+
+- You only look at your problem, not any surrounding "cruft" like opening and closing brackets
+- There are some nice shortcuts like "@" which is shorthand for "this" reference
+
 
 
 # Why Spine?
 
-- Written by Alex MacCaw
-- Model, View, Controller Design Pattern
-- Lightweight, comes in around 2K compressed
-- Very, very simple but powerful
+- It's written by seasoned Javascript developer and O'Reilly author, Alex MacCaw
+- It follows the Model, View, Controller Design Pattern 
+- It's lightweight, comes in around 2K compressed
+- It has incredible documentation and example apps
+- It has code generators, a dependency management system (NPM)
+- It is just Javascript (so you can skip the code generation and dependency management if needed)
+- Is written in CoffeeScript :)
+- Very simple but incredibly powerful
 
 
 # Model, View, Controller
 
+The Model, View, Controller Design Pattern (MCV) is responsible for separation of concerns.
 
 ## The Model
 - Application Data
-- Instance Attributes
 - Business Logic
 
-```javascript
-var user = User.find(1);
-user.destroy()
-```
+An example Spine Model written in CoffeeScript
+
+### Fetching Data
+### Validation
+### Persistence
 
 ## The View
 - Presentation Layer
-- User interaction
 - Logic free (aside from very simple control structures)
-- Presentation logic belongs in Helpers
+- Uses a template library (Mustache, jQuery.tmpl, Eco…) for outputting data to the user
 
-JavaScript Helper
-
-``` javascript
-var helper = {};
-helper.formatDate = function(){ /** */ }
-```
-
-HTML Template
-
-```html
-${helper.formatDate(this.date);
-```
+### Templating
+### Helpers
 
 ## The Controller
-- Application "Glue" between models and views
+- The application "glue" between models and views
+- Fetches data from the server (or localStorage)
+- Handles events and calling and rendering associated models
+
+### Elements 
+### Events
+### Rendering
