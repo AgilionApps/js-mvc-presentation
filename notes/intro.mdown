@@ -1,0 +1,73 @@
+## User expectations 
+
+- Moore's law on hardware: # transistors placed inexpensively on a circuit doubles every 2 years.
+
+- People expect technology to move faster, do more and get cheaper.   
+
+- Same is true for web apps.  As me move more and more t o the cloud, customers and consumers demand desktop like speed and seamless interaction.
+
+- Is there a Moore's law equivalent for web apps?
+
+
+## Introduction to MVC 
+
+- A software architectural design pattern 
+
+- 1st described in 1979 by Trygve Reenskaug at Xerox 
+
+- organizes the aspects of an application
+  - input logic (controller)
+  - business logic (model)
+  - UI presentation (view) 
+
+- A common design convention for web applications
+
+
+## Why MVC in JS 
+
+- Why not?
+
+- More Server-side functionality is moving to client
+
+- Organized code. Best practices
+
+- Prevent the mess. Prevent Complication 
+
+## Preventing JS complication
+
+- Understand proper design
+
+- Follow best practice conventions
+
+- Don't overcomplicate the solutions
+
+## Leveraging a bit of SOA
+
+- Service Oriented Architecture: The dream of "interoperable services"
+
+- Connecting and integrate web services
+
+- Isolate single problems with single solutions.
+
+- Stay modular and scalable
+
+- Prevents overcomplicated an codebase
+
+- Less code = more maintainable
+
+## Connecting web services with JSON
+
+- JSON is JavaScript Object Notation.
+
+- A faster alternative to XML
+
+- share data between web apps with an JSON application Programmers Interface (API)
+
+## JSON API & JS MVC Apps
+
+- obvious
+
+
+
+
+
