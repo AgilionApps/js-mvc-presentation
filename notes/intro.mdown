@@ -63,9 +63,10 @@
 
 - share data between web apps with an JSON application Programmers Interface (API)
 
-## JSON API & JS MVC Apps
 
-- obvious
+## JSON API with JS MVC Apps
+
+- its obvious
 
 
 
