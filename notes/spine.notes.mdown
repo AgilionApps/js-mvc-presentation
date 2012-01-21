@@ -23,7 +23,8 @@ The advantages of using CoffeeScript are
 
 - You only look at your problem, not any surrounding "cruft" like opening and closing brackets
 - There are some nice shortcuts like "@" which is shorthand for "this" reference
-
+- nicer control structures like "unless"
+- a cleaner and clearer object oriented approach to Javascript
 
 
 # Why Spine?
