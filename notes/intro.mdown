@@ -4,7 +4,7 @@
 
 - People expect technology to move faster, do more and get cheaper.   
 
-- Same is true for web apps.  As me move more and more t o the cloud, customers and consumers demand desktop like speed and seamless interaction.
+- Same is true for web apps.  As we move more services to the cloud, customers will demand desktop like speed and seamless interaction.
 
 - Is there a Moore's law equivalent for web apps?
 
