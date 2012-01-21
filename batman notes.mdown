@@ -1,0 +1,35 @@
+## Why Batman
+
+- CoffeeScript is elegant and cuts down on LOC
+- For Rails developers (like me) I feel right at home
+- Convention over configuration
+- Observable properties are awesome
+
+```coffeescript
+@emptyEntry.observe 'gravity', (newVal, oldVal) ->
+  @set 'abv', @get('calculated_abv')
+```
+
+- Built in form binding with views
+
+``` html
+<form class="nice" data-formfor-beer="controllers.beers.emptyBeer" data-event-submit="controllers.beers.create">
+  <div class="field">
+    <input type="text" class="input-text name" placeholder="beer name" data-bind="beer.name" />
+  </div>
+  <div class="field">
+    <input type="submit" class="nice large button" value="Save Beer" />
+  </div>
+</form>
+```
+
+- Templates are HTML
+
+```html
+<tbody>
+  <tr data-foreach-beer="Beer.all">
+    <td><a data-route="beer" data-bind="beer.name"></a></td>
+    <td><a data-event-click="beer.destroy">Delete</a></td>
+  </tr>
+</tbody>
+```
