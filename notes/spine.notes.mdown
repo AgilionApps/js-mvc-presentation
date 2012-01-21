@@ -49,6 +49,8 @@ The Model, View, Controller Design Pattern (MCV) is responsible for separation o
 - Business Logic
 
 ### Fetching Data
+### Local Storage
+### AJAX Communication
 ### Validation
 ### Persistence
 
@@ -68,6 +70,15 @@ The Model, View, Controller Design Pattern (MCV) is responsible for separation o
 ### Elements 
 ### Events
 ### Rendering
+
+## Stacks and Routing
+## Testing Frameworks
+
+## Miscellaneous
+### Working with Forms (.fromForm vs. toJSON)
+### HTML5
+### Hem
+### Spine Mobile
 
 
 # How to Build Web Applications with Spine
