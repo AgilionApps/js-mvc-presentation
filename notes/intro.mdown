@@ -25,13 +25,14 @@
 
 ## Why MVC in JS 
 
-- Why not?
-
-- More Server-side functionality is moving to client
+- Add in the structure.  Consider it first aid to stop the bleeding (ie: huge linear JS files)
 
 - Organized code. Best practices
 
-- Prevent the mess. Prevent Complication 
+- More Server-side functionality is moving to client. 
+
+- Why not design JS apps similar to servide-side apps (ie RoR)?
+
 
 ## Preventing JS complication
 
