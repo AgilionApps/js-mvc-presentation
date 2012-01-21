@@ -72,6 +72,9 @@ The Model, View, Controller Design Pattern (MCV) is responsible for separation o
 
 # How to Build Web Applications with Spine
 
+### Dependencies
+### Where to Find Information
+
 ### Weight Tracker: An Example Spine.js Application
 
 Web developers tend to lead sedentary lifestyles. To correct this I've built a simple little app that lets you input your target weight and record progress toward that goal. 
