@@ -1,0 +1,53 @@
+# Javascript MVC
+
+Modular and decoupled code is common with server side frameworks like Ruby on Rails (Ruby), 
+Django (Python) and Zend Framework (PHP). Great care and attention is spent making sure that application code is well organized and optimized for maintainability. 
+
+Client side development has so far been a different story. Traditionally, Javascript has been treated as an afterthought. 	
+
+But the principle holds true that the best way to build large applications is to NOT build large applications. The lessons of well structured code from the server side world are being applied to client side development as well. 
+
+
+
+# Why Spine?
+
+- Written by Alex MacCaw
+- Model, View, Controller Design Pattern
+- Lightweight, comes in around 2K compressed
+- Very, very simple but powerful
+
+
+# Model, View, Controller
+
+
+## The Model
+- Application Data
+- Instance Attributes
+- Business Logic
+
+```javascript
+var user = User.find(1);
+user.destroy()
+```
+
+## The View
+- Presentation Layer
+- User interaction
+- Logic free (aside from very simple control structures)
+- Presentation logic belongs in Helpers
+
+JavaScript Helper
+
+``` javascript
+var helper = {};
+helper.formatDate = function(){ /** */ }
+```
+
+HTML Template
+
+```html
+${helper.formatDate(this.date);
+```
+
+## The Controller
+- Application "Glue" between models and views
