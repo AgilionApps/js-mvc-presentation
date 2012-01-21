@@ -61,7 +61,7 @@
 
 - A faster alternative to XML
 
-- share data between web apps with an JSON application Programmers Interface (API)
+- share data between web apps with an JSON application Programmers Interface (API).
 
 
 ## JSON API with JS MVC Apps
