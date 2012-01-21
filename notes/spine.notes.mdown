@@ -1,12 +1,15 @@
 # Javascript MVC
 
 Modular and decoupled code is common with server side frameworks like Ruby on Rails (Ruby), 
-Django (Python) and Zend Framework (PHP). Great care and attention is spent making sure that application code is well organized and optimized for maintainability. 
+Django (Python) and Zend Framework (PHP). Great care and attention is spent making sure that application code is well organized and optimized for maintainability. As developers working in these code bases, it's obvious to see the benefits when code grows over the lifecycle of a project.
 
-Client side development has so far been a different story. Traditionally, Javascript has been treated as an afterthought. 	
+Client side development has so far been a different story. Traditionally, Javascript has been treated as an afterthought. Code and libraries are copy/pasted and dropped into a public directory. 
+
+Third party code like jQuery, Prototype and Mootools enable great opportunities for making amazing things, but do not inherently promote principles of maintainability that is common with server side programming frameworks. Instead, they can exacerbate the problem and it is common to find "spagehhti" code littered throughout client facing code. 
 
 But the principle holds true that the best way to build large applications is to NOT build large applications. The lessons of well structured code from the server side world are being applied to client side development as well. 
 
+Web applications are advancing and a lot of interaction is being made possible because of Javascript. 
 
 
 # Why Spine?
