@@ -31,7 +31,8 @@ The advantages of using CoffeeScript are
 - It's written by seasoned Javascript developer and O'Reilly author, Alex MacCaw
 - It follows the Model, View, Controller Design Pattern 
 - It's lightweight, comes in around 2K compressed
-- It has incredible documentation and example apps
+- It has incredible documentation and many example apps
+- Interoperable with other common libraries such as jQuery and Zepto
 - It has code generators, a dependency management system (NPM)
 - It is just Javascript (so you can skip the code generation and dependency management if needed)
 - Is written in CoffeeScript :)
@@ -57,7 +58,7 @@ An example Spine Model written in CoffeeScript
 - Logic free (aside from very simple control structures)
 - Uses a template library (Mustache, jQuery.tmpl, Eco…) for outputting data to the user
 
-### Templating
+### Templates
 ### Helpers
 
 ## The Controller
@@ -68,3 +69,18 @@ An example Spine Model written in CoffeeScript
 ### Elements 
 ### Events
 ### Rendering
+
+
+# How to Build Web Applications with Spine
+
+### Weight Tracker: An Example Spine.js Application
+
+Web developers tend to lead sedentary lifestyles. To correct this I've built a simple little app that lets you input your target weight and record progress toward that goal. 
+
+It uses localStorage and runs 100% in the browser.
+
+## Conclusion
+
+Regardless of what framework you ultimately decide on, the principles and design patterns are similar enough, that changing between them is more easy than it is difficult. It is a step in the right direction and brings true programming back into client side development.
+
+
