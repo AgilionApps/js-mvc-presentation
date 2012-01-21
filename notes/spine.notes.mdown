@@ -48,8 +48,6 @@ The Model, View, Controller Design Pattern (MCV) is responsible for separation o
 - Application Data
 - Business Logic
 
-An example Spine Model written in CoffeeScript
-
 ### Fetching Data
 ### Validation
 ### Persistence
