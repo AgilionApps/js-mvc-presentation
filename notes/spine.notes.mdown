@@ -5,7 +5,7 @@ Django (Python) and Zend Framework (PHP). Great care and attention is paid for t
 
 Client side development has so far been a different story. Traditionally, Javascript has been treated as an afterthought. Code and libraries are copy/pasted and dropped into a public directory with little regard. 
 
-Popular Javascript libraries like jQuery, Prototype and Mootools enable developers to create powerful user experiences with fewer lines of code, but do not inherently promote principles of maintainability. These frameworks can even make the problem worse and it is all too common to find "spaghetti" callbacks and selectors nested in massive Javascript files. 
+Popular Javascript libraries like jQuery, Prototype and Mootools enable developers to create powerful user experiences with fewer lines of code. But they do not inherently promote principles of maintainability. These frameworks can even make the problem worse and it is all too common to find "spaghetti" callbacks and selectors nested in massive Javascript files. 
 
 But the principle holds true that the best way to build large applications is to NOT build large applications. The more modular and decoupled code becomes the easier it is to extend and reuse. The principles applied in structuring server side frameworks are being applied to front end development frameworks as demand for rich user experiences continues to increase.
 
