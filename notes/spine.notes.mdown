@@ -74,6 +74,8 @@ The Model, View, Controller Design Pattern (MCV) is responsible for separation o
 ## Stacks and Routing
 ## Testing Frameworks
 
+## Common Patterns
+
 ## Miscellaneous
 ### Working with Forms (.fromForm vs. toJSON)
 ### HTML5
